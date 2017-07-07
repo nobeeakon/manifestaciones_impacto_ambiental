@@ -1,4 +1,4 @@
-# manifestaciones_impacto_ambiental
+# Manifestaciones de impacto ambiental
 Base de datos de las manifestaciones de impacto ambiental ingresadas a SEMARNAT, México
 
 ## Bases de datos
