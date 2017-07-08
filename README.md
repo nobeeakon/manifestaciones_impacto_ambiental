@@ -2,7 +2,7 @@
 Base de datos de las Manifestaciones de Impacto Ambiental ingresadas publicadas en la [Gaceta Ecológica](https://github.com/nobeeakon/manifestaciones_impacto_ambiental/blob/master/gacetas.xlsx) de la SEMARNAT, México.
 
 ## Bases de datos
-La base se encuentra en formato [".csv"](https://github.com/nobeeakon/manifestaciones_impacto_ambiental/blob/master/gacetas.csv)(usando "|" como separador) o en formato [".xlsx"](https://github.com/nobeeakon/manifestaciones_impacto_ambiental/blob/master/gacetas.xlsx), que se puede visualizar en Libre Office Calc o MS Excel. La [Gaceta Ecológica](https://github.com/nobeeakon/manifestaciones_impacto_ambiental/blob/master/gacetas.xlsx) se publica cada jueves e incluye Proyectos ingresados, Trámites de cambio de uso de suelo y Resolutivos; en la base no se incluyen los resolutivos.
+La base se encuentra en formato [".csv"](https://github.com/nobeeakon/manifestaciones_impacto_ambiental/blob/master/datos/gacetas.csv)(usando "|" como separador) o en formato [".xlsx"](https://github.com/nobeeakon/manifestaciones_impacto_ambiental/blob/master/datos/gacetas.csv), que se puede visualizar en Libre Office Calc o MS Excel. La [Gaceta Ecológica](https://github.com/nobeeakon/manifestaciones_impacto_ambiental/blob/master/gacetas.xlsx) se publica cada jueves e incluye Proyectos ingresados, Trámites de cambio de uso de suelo y Resolutivos; en la base no se incluyen los resolutivos.
 Las columnas que contiene son:
   1. Número de gaceta: "número-año"
   2. Sección:
@@ -37,9 +37,22 @@ Las columnas que contiene son:
       V: Infraestructura vehicular.
       F: Forestal.
   15. Subtipo de proyecto
-## Estado del proyecto
+## Consultar proyectos
 Para buscar en qué estado o etapa se encuetra el trámite para autorización de un proyecto, hay que ingresar a la página de la SEMARNAT de ["Consulta tu trámite"](http://tramites.semarnat.gob.mx/index.php/consulta-tu-tramite) e ingresar la clave del proyecto. En esta página se pueden consultar también el documento de la Manifestación (MIA).
+## 2017
+Durante este año han ingresado 1228 proyectos o cambios de uso de suelo. Se han publicado 39 gacetas Ecológicas.  Los estados con mayor cantidad de proyectos registrados son Sinaloa, Edo. de México, Quintana Roo y Sonora.
+![](https://github.com/nobeeakon/manifestaciones_impacto_ambiental/blob/master/imagenes/mias_edos.png)
 
-## Proyectos relacionados con las Manifestaciones de Impacto Ambiental
+El 23% de los proyectos están relacionados a la minera (prospección, explotación, ...). Los estados que presentan mayor cantidad de proyectos relacionados con minería son Zacatecas, Edo. de México, Durango, Chihuahua, y Sonora.
+![](https://github.com/nobeeakon/manifestaciones_impacto_ambiental/blob/master/imagenes/mineria_edos.png)
+
+
+
+## Algunos proyectos relacionados con las Manifestaciones de Impacto Ambiental
 1. Gamia-UCCS: Unión de Científicos Comprometidos con la Sociedad. Anlisis técnico de MIAs.
-2. [CartoCrtica](http://www.cartocritica.org.mx/mapa_mia/): Mapa de las manifestaciones de impacto ambiental ingresadas entre 2000 y 2014.
+2. [CartoCrítica](http://www.cartocritica.org.mx/mapa_mia/): Mapa de las manifestaciones de impacto ambiental ingresadas entre 2000 y 2014.
+
+## Software usado
+* emacs
+* R
+* GRASS
