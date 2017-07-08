@@ -36,6 +36,9 @@ Las columnas que contiene son:
       I: Idustria.
       V: Infraestructura vehicular.
       F: Forestal.
+      H: Infraestructura hidráulica.
+      T: Construcción, turismo, vivienda.
+      U: Cambio de uso de suelo.
   15. Subtipo de proyecto
 ## Consultar proyectos
 Para buscar en qué estado o etapa se encuetra el trámite para autorización de un proyecto, hay que ingresar a la página de la SEMARNAT de ["Consulta tu trámite"](http://tramites.semarnat.gob.mx/index.php/consulta-tu-tramite) e ingresar la clave del proyecto. En esta página se pueden consultar también el documento de la Manifestación (MIA).
