@@ -2,7 +2,7 @@
 Base de datos de las manifestaciones de impacto ambiental ingresadas a SEMARNAT, México
 
 ## Bases de datos
-La base se encuentra en formato ".csv", que se puede visualizar en Excel o Libre Office Calc. 
+La base se encuentra en formato [".csv"](https://github.com/nobeeakon/manifestaciones_impacto_ambiental/blob/master/gacetas.csv), que se puede visualizar en Excel o Libre Office Calc. 
 Las columnas que contiene son:
   1. Número de gaceta: "número-año"
   2. Sección:
